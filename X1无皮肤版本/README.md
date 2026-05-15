@@ -31,8 +31,6 @@
 | `left/right_ankle_pitch_joint` | `[-228.06, 228.06]` |
 | `left/right_ankle_roll_joint` | `[-25.2, 25.2]` |
 
-![碰撞体示意](image/碰撞体.png)
-
 ## 使用建议
 
 - 查原始结构、惯量和关节参数时看 `X1.urdf`。

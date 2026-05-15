@@ -60,7 +60,7 @@
               <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.749024 0.749024 0.749024 1" mesh="left_knee_link"/>
               <geom size="0.05 0.125" pos="0 0 -0.18" type="cylinder" rgba="0.749024 0.749024 0.749024 1"/>
               <body name="left_ankle_pitch_link" pos="0 0 -0.3595">
-                <inertial pos="0.0038456 -0.0019998 -0.0321043" quat="0.694673 -0.132023 -0.132023 0.694673" mass="0.195703" diaginertia="0.0002379 0.00017556 0.00011344"/>
+                <inertial pos="0.00270709 -0.00199973 -0.0216465" quat="0.701063 -0.0922568 -0.0922568 0.701063" mass="0.34756" diaginertia="0.00036491 0.00029392 0.00016663"/>
                 <joint name="left_ankle_pitch_joint" pos="0 0 0" axis="0 -1 0" range="-1.082 1.082" actuatorfrcrange="-64.8 64.8"/>
                 <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.749024 0.749024 0.749024 1" mesh="left_ankle_pitch_link"/>
                 <geom size="0.025" pos="0 -0.001 -0.03" rgba="0.749024 0.749024 0.749024 1"/>
@@ -102,7 +102,7 @@
               <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.749024 0.749024 0.749024 1" mesh="right_knee_link"/>
               <geom size="0.05 0.125" pos="0 0 -0.18" type="cylinder" rgba="0.749024 0.749024 0.749024 1"/>
               <body name="right_ankle_pitch_link" pos="0 0 -0.3595">
-                <inertial pos="0.0034149 -0.0020003 -0.0269631" quat="0.698151 -0.112181 -0.112181 0.698151" mass="0.275519" diaginertia="0.0003123 0.000229741 0.000139659"/>
+                <inertial pos="0.00270708 -0.00200027 -0.0216465" quat="0.701063 -0.0922568 -0.0922568 0.701063" mass="0.34756" diaginertia="0.00036491 0.00029392 0.00016663"/>
                 <joint name="right_ankle_pitch_joint" pos="0 0 0" axis="0 -1 0" range="-1.082 1.082" actuatorfrcrange="-64.8 64.8"/>
                 <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.749024 0.749024 0.749024 1" mesh="right_ankle_pitch_link"/>
                 <geom size="0.025" pos="0 -0.001 -0.03" rgba="0.749024 0.749024 0.749024 1"/>

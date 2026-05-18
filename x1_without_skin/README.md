@@ -1,12 +1,12 @@
 # X1（无皮肤版本）
 
-这个目录同时包含 X1 的 `URDF` 和 `MJCF` 两套模型。`URDF` 用来查结构、质量和惯量，`MJCF` 是当前用于 MuJoCo 调试和基础仿真的版本。
+这个目录同时包含 X1 的 `URDF` 和 `MJCF` 两套模型。`URDF` 放在 `urdf/`，`MJCF` 放在 `mjcf/`；`URDF` 用来查结构、质量和惯量，`MJCF` 是当前用于 MuJoCo 调试和基础仿真的版本。
 
 ## 文件说明
 
-- `X1.urdf`：原始结构与惯量参考。
-- `X1.xml`：当前 MuJoCo 主模型，已按仿真需求做裁剪，不是对 `X1.urdf` 的原样转换。
-- `scene.xml`：场景入口，补充地面、光照和材质，推荐直接打开。
+- `urdf/X1.urdf`：原始结构与惯量参考。
+- `mjcf/X1.xml`：当前 MuJoCo 主模型，已按仿真需求做裁剪，不是对 `urdf/X1.urdf` 的原样转换。
+- `mjcf/scene.xml`：场景入口，补充地面、光照和材质，推荐直接打开。
 - `meshes/`：`URDF` 和 `MJCF` 共用的 STL 网格资源。
 
 ## URDF
@@ -24,18 +24,18 @@
 
 | 关节 | 力矩范围 |
 | --- | --- |
-| `left/right_hip_yaw_joint` | `[-126, 126]` |
-| `left/right_hip_roll_joint` | `[-63, 63]` |
-| `left/right_hip_pitch_joint` | `[-252, 252]` |
-| `left/right_knee_joint` | `[-332.64, 332.64]` |
-| `left/right_ankle_pitch_joint` | `[-228.06, 228.06]` |
-| `left/right_ankle_roll_joint` | `[-25.2, 25.2]` |
+| `left/right_hip_yaw_joint` | `[-50, 50]` |
+| `left/right_hip_roll_joint` | `[-100, 100]` |
+| `left/right_hip_pitch_joint` | `[-212, 212]` |
+| `left/right_knee_joint` | `[-93, 93]` |
+| `left/right_ankle_pitch_joint` | `[-64.8, 64.8]` |
+| `left/right_ankle_roll_joint` | `[-20, 20]` |
 
 ## 使用建议
 
-- 查原始结构、惯量和关节参数时看 `X1.urdf`。
-- 在 MuJoCo 中优先打开 `scene.xml`，不要直接打开 `X1.xml`。
-- 如果修改了 `URDF` 中的惯量参数，需要同步检查 `X1.xml` 中对应的 `<inertial>`。
+- 查原始结构、惯量和关节参数时看 `urdf/X1.urdf`。
+- 在 MuJoCo 中优先打开 `mjcf/scene.xml`，不要直接打开 `mjcf/X1.xml`。
+- 如果修改了 `URDF` 中的惯量参数，需要同步检查 `mjcf/X1.xml` 中对应的 `<inertial>`。
 
 ## 注意事项
 

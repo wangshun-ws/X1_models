@@ -147,45 +147,45 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.06 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="-0.06 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="-0.06 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="-0.06 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.04 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.04 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.14 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.14 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.04 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.04 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.14 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.14 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.16 -0.0 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.16 -0.0 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <inertial>
@@ -321,45 +321,45 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="-0.06 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="-0.06 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="-0.06 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="-0.06 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.04 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.04 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.14 0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.14 0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.04 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.04 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.14 -0.03 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.14 -0.03 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <collision>
-        <origin xyz="0.16 -0.0 -0.033" rpy="0 -1.5707963 0" />
+        <origin xyz="0.16 -0.0 -0.035" rpy="0 -1.5707963 0" />
         <geometry>
-          <sphere radius="0.01" />
+          <sphere radius="0.008" />
         </geometry>
       </collision>
       <inertial>
@@ -397,9 +397,9 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0 0 0.14" rpy="0 0 0" />
+        <origin xyz="0 0 0.17" rpy="0 0 0" />
         <geometry>
-          <cylinder radius="0.1" length="0.3" />
+          <cylinder radius="0.09" length="0.35" />
         </geometry>
       </collision>
       <inertial>
@@ -420,9 +420,9 @@
         </material>
       </visual>
       <collision>
-        <origin xyz="0.0205728 0 0.189032" rpy="0 0 0" />
+        <origin xyz="0.0205728 0 0.2" rpy="0 0 0" />
         <geometry>
-          <sphere radius="0.0621" />
+          <sphere radius="0.08" />
         </geometry>
       </collision>
       <inertial>
